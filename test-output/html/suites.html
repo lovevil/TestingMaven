@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link rel="stylesheet" href="css/reportng.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script> 
+  <script type="text/javascript" src="js/reportng.js"></script>
+</head>
+<body onload="return false;" onkeypress="hidePassSuites();">
+<div class="row">
+	<div class="col-xs-12">
+	<h3 class="normal">Suite Results</h3>
+        <div class="text-right">
+            <button id="hideResults" type="button" class="btn btn-success" onclick="hidePassSuites(this);" class="btn pull-right">Hide Pass</button>
+        </div>
+    </div>
+</div>
+<br>
+<div class="well well-large">
+<table class="table table-bordered">
+	<thead>
+   		<tr class="columnHeadings">
+   			<th class="header">StartTime</th>
+   		 	<th class="header" style="text-align:left">Parent Suite Name</th>
+    		<th class="header" style="text-align:left">Suite Name</th>
+    		<th class="header" style="text-align:left">Parallel</th>
+    		<th class="header">Duration</th>
+	    	<th class="header">Passed</th>
+	    	<th class="header">Skipped</th>
+	    	<th class="header">Known</th>
+	    	<th class="header">Fixed</th>
+	    	<th class="header">Failed</th>
+    		<th class="header">Status</th>
+  		</tr>
+  	</thead>
+  	<tr class="test">
+<td width="100">9:15:42 AM</td><td width="250"></td><td><a href="suites_overview.html#Failed suite [Suite]">Failed suite [Suite]</a></td><td class="duration"></td><td class="duration">00:00:00</td><td class="zero number">0</td><td class="zero number">0</td><td class="zero number">0</td><td class="zero number">0</td><td class="failed number">1</td><td class="zero number"><font color="red">FAIL</font></td></tr>
+<tr class="suite">
+<td colspan="4">Total</td><td class="duration">00:00:00</td><td class="zero number">0</td><td class="zero number">0</td><td class="zero number">0</td><td class="zero number">0</td><td class="failed number">1</td><td class="zero number"><font color="red">FAIL</font></td></tr>
+
+</table>
+</div>
+</body>
+</html>
