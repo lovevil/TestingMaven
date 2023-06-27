@@ -27,7 +27,7 @@ public class ActionClass {
 		try {
 
 			fis = new FileInputStream(
-					new File("/Users/shubhamsaini/eclipse-workspace/TestingMaven/resources/data.properties"));
+					new File("/Users/sainis/eclipse-workspace/TestingMaven/resources/data.properties"));
 			property.load(fis);
 
 		} catch (FileNotFoundException e) {
